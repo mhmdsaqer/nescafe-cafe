@@ -1,16 +1,52 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+  <h1>☕ Nescafe Bae — Gaza Beach Cafe</h1>
+  
+  <p>
+    موقع إلكتروني كافيه تفاعلي وحديث مخصص لـ <b>Nescafe Bae</b> الواقع على كورنيش شاطئ غزة. يقدم تجربة مستخدم سلسة وعرضاً جذاباً للمشروبات الساخنة والعروض الخاصة.
+  </p>
 
-Currently, two official plugins are available:
+  <!-- صورة المعاينة الاحترافية -->
+  <img src="./src/assets/preview.jpeg" alt="Nescafe Bae Preview" width="100%" style="border-radius: 12px;" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  <br />
+  <br />
 
-## React Compiler
+  <!-- Badges التقنيات المستخدمة -->
+  <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-10.x-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🌟 الميزات الرئيسية (Key Features)
+
+* **قسم رئيسي حيوي (Hero Carousel):** استعراض حركي دائري وتلقائي لصنوف النسكافيه بفضل مكتبة `Framer Motion`.
+* **قائمة مشروبات تفاعلية (Interactive Menu):** تصفح المشروبات الساخنة مع تقييماتها، وإمكانية تعديل الكميات وسلة المشتريات بشكل فوري.
+* **بطاقات العروض (Promos Section):** عرض للعروض والخصومات مع خاصية **نسخ كود الخصم بضغطة زر واحدة** إلى الحافظة (`Clipboard`).
+* **خريطة تفاعلية وموقع مخصص (Location & Map):** إدماج خريطة تفاعلية توضح موقع الكافيه على شارع الرشيد (كورنيش البحر - غزة).
+* **تصميم متجاوب بالكامل (Fully Responsive):** متوافق مع كافة أجهزة الموبايل، الآيباد، وشاشات الحواسيب بفضل **Tailwind CSS**.
+
+---
+
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+
+* **Frontend Framework:** React.js
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion (AnimatePresence & Layout Animations)
+* **Icons:** Custom SVG Icons
+* **Build Tool:** Vite / Create React App
+
+---
+
+## 🚀 كيفية التشغيل محلياً (Getting Started)
+
+تأكد من تثبيت [Node.js](https://nodejs.org/) على جهازك، ثم اتبع الخطوات التالية:
+
+1. **استنسخ المستودع (Clone Repository):**
+   ```bash
+   git clone [https://github.com/YOUR-USERNAME/nescafe-cafe.git](https://github.com/YOUR-USERNAME/nescafe-cafe.git)
+   cd nescafe-cafe
