@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coffee-brand: #C85A17;
+  --color-coffee-dark: #2D1910;
+  --color-coffee-light: #FFF8F3;
+  --color-coffee-card: #FFFFFF;
+  --color-coffee-muted: #8C6F64;
+}
