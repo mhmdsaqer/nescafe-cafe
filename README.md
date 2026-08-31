@@ -40,13 +40,3 @@
 * **Icons:** Custom SVG Icons
 * **Build Tool:** Vite / Create React App
 
----
-
-## 🚀 كيفية التشغيل محلياً (Getting Started)
-
-تأكد من تثبيت [Node.js](https://nodejs.org/) على جهازك، ثم اتبع الخطوات التالية:
-
-1. **استنسخ المستودع (Clone Repository):**
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/nescafe-cafe.git](https://github.com/YOUR-USERNAME/nescafe-cafe.git)
-   cd nescafe-cafe
